@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Instrument Sans', sans-serif;
+
+
+    /* border:1px solid white; */
+}
+
+.faq {}
+
+.footer {}
+
+.welcome {
+    /* filter: brightness(50%);
+    background-image: url("/img/back.jpg");
+    opacity:0.6;
+    background-color: black; */
+    /*     
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(/img/back.jpg);
+    background-size: cover;
+    background-position: center; */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10%;
+}
+
+.btn-lang {
+    color: white;
+    border-radius: 6px;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    display: inline-block;
+    margin: 5%;
+    border-style: solid;
+    border-color: rgb(129, 142, 153);
+
+}
+
+.signin {
+    background-color: red;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    color: white;
+    font-weight: 400;
+    border-radius: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: inline-block;
+    margin: 5%;
+    color:aliceblue;
+    font-weight: bold;
+
+}
+
+.welcome-text {
+    color: white;
+    font-weight: 900;
+    background: transparent;
+    /* Black background with 0.5 opacity */ color: #f1f1f1;
+    /* Grey text */
+    width: 105%;
+
+
+}
+
+.logo {
+    /* display: inline; */
+    /* padding-left:5%; */
+}
+
+.logoo {
+    /* text-align: center; */
+}
+
+.nav-2 {
+    text-align: center;
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin: 1%;
+}
+
+.nav-1 {
+    display: inline-block;
+}
+
+body {
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.welcome-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 280%;
+}
+
+.welcome-text {
+    padding-left: 5%;
+}
+
+.signin:hover{
+    background-color:rgb(143, 13, 13);
+}
+
+.welcome-text-sub {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 50%;
+    background: transparent;
+    margin-left: 20%;
+}
+
+.welcome-form {
+    background: transparent;
+    /* display: inline; */
+}
+
+.welcome-form-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 35%;
+    background: transparent;
+    margin-left: 15%;
+}
+
+.email-but {
+    display: inline-block;
+    margin-left: 15%;
+    padding: 2% 15% 2% 0%;
+    border-style: solid;
+    border-radius: 6px;
+    color:aliceblue;
+}
+
+.email-but::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    /* Firefox */
+    font-size: 110%;
+    float:left;
+    padding-left:10%;
+}
+
+.email-but:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+}
+
+.email-but::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red;
+}
+
+.get-start-but{
+    background: red;
+    padding-top:1.65%;
+    padding-bottom: 1.65%;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+    font-size:50%;
+    display: inline-block;
+    /* display:inline-block; */
+    /* border-color: aliceblue; */
+}
+
+.welcome-form{
+    /*
+    display: inline;
+    flex-direction: column; */
+    /* text-align: center;
+    display: inline;
+    width:200%; */
+}
+
+.section1{
+    background: #000;
+}
+
+.sec1-left{
+    display:inline;
+    color:#f1f1f1;
+    margin-right:10%;
+}
+
+.sec1-right{ /* NOTE:img*/
+    text-align: center;
+    display: inline-block;
+    float: right;
+    width: 30%;
+    margin-right: 10%;
+}
+.sec1-right img{
+    width:150%;
+}
